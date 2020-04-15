@@ -1,1 +1,90 @@
-/* Add CSS styling here */
+body{
+    border:20px solid seashell;
+    background:black;
+    margin:20px;
+  }
+
+  h1{
+    color:black;
+    margin:30px;
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+    .top { 
+background: lightgray;
+margin: 10px;
+    }
+  
+  .first-div nav a{
+    margin:  10px;
+    border: 1px solid seashell;
+    padding: 5px;
+    display: inline-block;
+    color: black;
+    margin: 20px;
+    background: pink;
+  }
+
+   .first-div a:hover  {
+    color: red; 
+     background: yellow
+    }
+
+    .pic{
+       display:flex;
+       flex-wrap: wrap;
+       margin: 30px;
+       width: 100px;
+       height: auto;
+       box-sizing: border-box;
+       
+    }
+
+    .pic img:hover{
+    border:7px solid seashell;
+    }
+
+     h2{  
+     color:pink;
+     margin: 20px;
+     padding 20px;
+     text-align: center;
+     font-size: 30px;
+     }
+
+     .h2{
+         color: lightblue;
+         font-size: 16px;
+     }
+     
+ # 6-pic {
+    display: flex;
+    flex-direction: row; 
+    
+     margin: 20px;
+       width: 100px;
+       height: auto;
+       box-sizing: border-box;
+       border: solid white;
+ }
+
+
+  .second-div{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    background: lightgray;
+ }
+
+ .second-div nav a {
+     color: black;
+     
+ }
+ button{
+     background: yellow;
+ }
+    
+  
+  
+  /* Add CSS styling here */
